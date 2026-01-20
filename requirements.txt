@@ -1,0 +1,14 @@
+
+---
+
+### requirements.txt
+
+```txt
+pandas
+numpy
+nltk
+scikit-learn
+scipy
+matplotlib
+seaborn
+joblib
