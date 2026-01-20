@@ -1,8 +1,8 @@
-# 🛡 SmartMail AI – Intelligent Email Security System
+#  SmartMail AI – Intelligent Email Security System
 
 SmartMail AI is an intelligent email security system that detects spam, scam, and phishing emails using machine learning and cybersecurity-based threat analysis.
 
-## 🚀 Features
+##  Features
 - Ensemble ML classifier (Naive Bayes + Logistic Regression)
 - Word + character n-gram feature extraction
 - Phishing and scam detection engine
@@ -12,10 +12,10 @@ SmartMail AI is an intelligent email security system that detects spam, scam, an
 - Cyber-style console interface
 - Automatic CSV logging
 
-## 🧠 Technology Stack
+##  Technology Stack
 Python, Pandas, NumPy, NLTK, Scikit-learn, Matplotlib, Seaborn, Joblib
 
-## ▶ How to Run
+##  How to Run
 ```bash
 pip install -r requirements.txt
 python src/smartmail_ai.py
