@@ -1,0 +1,63 @@
+time,email,result,category,confidence,risk_score,severity,reasons
+2026-01-18 01:54:08,"Hi bro, are we meeting tomorrow at 10 am?",HAM ✅,🟢 SAFE MAIL,97.14,0,🟢 LOW,Text structure matches legitimate emails
+2026-01-18 01:54:35,"Congratulations! You won ₹10,000 cash prize!!!",SPAM 🚫,💰 SCAM,79.96,7,🟠 HIGH,Model detected spam-associated words | Money-related patterns detected | Urgency patterns detected
+2026-01-18 02:00:14,"Congratulations! You won ₹10,000 cash prize!!!",SPAM 🚫,💰 SCAM,79.96,7,🟠 HIGH,Model detected spam-associated words | Money-related patterns detected | Urgency patterns detected
+2026-01-18 02:00:40,"Hi bro, are we meeting tomorrow at 10 am?",HAM ✅,🟢 SAFE MAIL,97.14,0,🟢 LOW,Text structure matches legitimate emails
+2026-01-18 02:06:11,"Congratulations! You won ₹10,000 cash prize!!!",SPAM 🚫,💰 SCAM,79.96,7,🟠 HIGH,Model detected spam-associated words | Money-related patterns detected | Urgency patterns detected
+2026-01-18 02:11:04,"Hi bro, are we meeting tomorrow at 10 am?",HAM ✅
+2026-01-18 02:11:16,"Congratulations! You won ₹10,000 cash prize!!!",SPAM 🚫
+2026-01-18 02:11:29,startss,HAM ✅
+2026-01-18 02:11:39,startss\,HAM ✅
+2026-01-18 02:12:18,"Congratulations! You won ₹10,000 cash prize!!!",SPAM 🚫,💰 SCAM,79.96,7,🟠 HIGH,Model detected spam-associated words | Money-related patterns detected | Urgency patterns detected
+2026-01-18 02:12:32,"Hi bro, are we meeting tomorrow at 10 am?",HAM ✅,🟢 SAFE MAIL,97.14,0,🟢 LOW,Text structure matches legitimate emails
+2026-01-19 16:02:52,"Congratulations! You won ₹10,000 cash prize!!!",SPAM 🚫,💰 SCAM,79.96,7,🟠 HIGH,Model detected spam-associated words | Money-related patterns detected | Urgency patterns detected
+2026-01-19 16:06:50,"Hi bro, are we meeting tomorrow at 10 am?",HAM ✅,🟢 SAFE MAIL,97.14,0,🟢 LOW,Text structure matches legitimate emails
+2026-01-19 19:11:18,"Congratulations! You won ₹10,000 cash prize!!!",SPAM 🚫,💰 SCAM,79.96,7,🟠 HIGH,Model detected spam-associated words | Money-related patterns detected | Urgency patterns detected
+2026-01-19 19:18:31,"Congratulations! You won ₹10,000 cash prize!!!",SPAM 🚫,💰 SCAM,79.96,7,🟠 HIGH,Model detected spam-associated words | Money-related patterns detected | Urgency patterns detected
+2026-01-19 20:20:40,"Congratulations! You won ₹10,000 cash prize!!!",SPAM 🚫,💰 SCAM,79.96,7,🟠 HIGH,Model detected spam-associated words | Money-related patterns detected | Urgency patterns detected
+2026-01-19 20:21:08,"Hi bro, are we meeting tomorrow at 10 am?",HAM ✅,🟢 SAFE MAIL,97.14,0,🟢 LOW,Text structure matches legitimate emails
+2026-01-19 20:22:26,"Congratulations! You won ₹10,000 cash prize!!!",SPAM 🚫,💰 SCAM,79.96,7,🟠 HIGH,Model detected spam-associated words | Money-related patterns detected | Urgency patterns detected
+2026-01-19 20:26:30,"Hi bro, are we meeting tomorrow at 10 am",HAM ✅,🟢 SAFE MAIL,97.14,0,🟢 LOW,Text structure matches legitimate emails
+2026-01-19 21:10:05,"Hi bro, are we meeting tomorrow at 10 am",HAM ✅,🟢 SAFE MAIL,97.14,0,🟢 LOW,Text structure matches legitimate emails
+2026-01-19 21:12:33,"Security Alert,",HAM ✅,🚨 SPAM,71.11,3,🟡 MEDIUM,Model detected spam-associated words
+2026-01-19 21:12:33,Your account needs verification.,HAM ✅,🎣 PHISHING,83.35,3,🟡 MEDIUM,Text structure matches legitimate emails
+2026-01-19 21:12:33,Login immediately at:,HAM ✅,🎣 PHISHING,83.36,0,🟢 LOW,Text structure matches legitimate emails
+2026-01-19 21:12:33,https://secure-login-update.com,SPAM 🚫,🎣 PHISHING,75.31,3,🟡 MEDIUM,Model detected spam-associated words | Links found in email | Phishing-style links detected
+2026-01-19 21:13:26,🚨 URGENT ALERT 🚨  ,SPAM 🚫,🚨 SPAM,80.74,3,🟡 MEDIUM,Model detected spam-associated words
+2026-01-19 21:13:26,Your bank account is suspended.  ,HAM ✅,🎣 PHISHING,81.96,3,🟡 MEDIUM,Text structure matches legitimate emails
+2026-01-19 21:13:26,"Verify now to claim your ₹50,000 reward.  ",SPAM 🚫,🎣 PHISHING,77.79,5,🟡 MEDIUM,Model detected spam-associated words | Money-related patterns detected
+2026-01-19 21:13:26,Click here immediately: http://secure-bank-login.xyz  ,SPAM 🚫,🎣 PHISHING,64.16,6,🟠 HIGH,Links found in email | Phishing-style links detected
+2026-01-19 21:13:26,Failure to verify will result in permanent block!!!,SPAM 🚫,🎣 PHISHING,72.29,5,🟡 MEDIUM,Urgency patterns detected
+2026-01-19 21:19:37,"🚨 URGENT ALERT 🚨  
+Your bank account is suspended.  
+Verify now to claim your ₹50,000 reward.  
+Click here immediately: http://secure-bank-login.xyz  
+Failure to verify will result in permanent block!!!
+
+
+
+",SPAM 🚫,🎣 PHISHING,95.92,10,🔴 CRITICAL,Model detected spam-associated words | Links found in email | Phishing-style links detected | Money-related patterns detected | Urgency patterns detected
+2026-01-19 21:26:07,"🚨 URGENT ALERT 🚨  
+Your bank account is suspended.  
+Verify now to claim your ₹50,000 reward.  
+Click here immediately: http://secure-bank-login.xyz  
+Failure to verify will result in permanent block!!!",SPAM 🚫,🎣 PHISHING,95.92,10,🔴 CRITICAL,Model detected spam-associated words | Links found in email | Phishing-style links detected | Money-related patterns detected | Urgency patterns detected
+2026-01-19 21:35:02,"Hi Gowtham,
+The meeting is scheduled for tomorrow at 10 AM in the conference room.
+Please bring the project report.
+Thanks.",HAM ✅,🟢 SAFE MAIL,96.14,0,🟢 LOW,Text structure matches legitimate emails
+2026-01-19 22:00:31,"🚨 Important Security Notice 🚨
+
+Your online banking account has been suspended due to suspicious login attempts.
+
+Verify your information immediately to restore access:
+http://banking-secure-verification.xyz/login
+
+If not verified within 1 hour, your account will be permanently locked.
+
+Thank you,
+Fraud Prevention Team",SPAM 🚫,🎣 PHISHING,81.26,6,🟠 HIGH,Model detected spam-associated words | Links found in email | Phishing-style links detected
+2026-01-20 14:54:51,"🎉 CONGRATULATIONS!!! YOU HAVE WON BIG 🎉  You have WON a ₹1,00,000 CASH PRIZE in our international lucky draw!!!  This is a LIMITED TIME offer. Claim your FREE reward immediately.  Click below to receive your MONEY and BONUS now: http://global-lucky-reward-center.com  Failure to claim within 1 hour will result in total loss of your PRIZE!!!  Congratulations once again. Reward Distribution Team",SPAM 🚫,💰 SCAM,98.81,10,🔴 CRITICAL,Model detected spam-associated words | Links found in email | Money-related patterns detected | Urgency patterns detected
+2026-01-20 15:56:34,"🎉 CONGRATULATIONS!!! YOU HAVE WON BIG 🎉  You have WON a ₹1,00,000 CASH PRIZE in our international lucky draw!!!  This is a LIMITED TIME offer. Claim your FREE reward immediately.  Click below to receive your MONEY and BONUS now: http://global-lucky-reward-center.com  Failure to claim within 1 hour will result in total loss of your PRIZE!!!  Congratulations once again. Reward Distribution Team",SPAM 🚫,💰 SCAM,98.81,10,🔴 CRITICAL,Model detected spam-associated words | Links found in email | Money-related patterns detected | Urgency patterns detected
+2026-01-20 15:58:16,"🎉 CONGRATULATIONS!!! YOU HAVE WON BIG 🎉  You have WON a ₹1,00,000 CASH PRIZE in our international lucky draw!!!  This is a LIMITED TIME offer. Claim your FREE reward immediately.  Click below to receive your MONEY and BONUS now: http://global-lucky-reward-center.com  Failure to claim within 1 hour will result in total loss of your PRIZE!!!  Congratulations once again. Reward Distribution Team",SPAM 🚫,💰 SCAM,98.81,10,🔴 CRITICAL,Model detected spam-associated words | Links found in email | Money-related patterns detected | Urgency patterns detected
+2026-01-20 15:59:24,"Hi Gowtham, The meeting is scheduled for tomorrow at 10 AM in the conference room. Please bring the project report. Thanks.",HAM ✅,🟢 SAFE MAIL,96.14,0,🟢 LOW,Text structure matches legitimate emails
